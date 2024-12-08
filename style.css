@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Questrial", sans-serif;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+}
+
+#nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+
+#nav1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#nav1 h3,
+#nav1 i {
+  border: 1.5px solid #000;
+  font-size: 17px;
+  padding: 5px 10px;
+  border-radius: 50px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#nav2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  gap: 5px;
+}
+
+.ri-tooth-fill {
+  font-size: 25px;
+}
+
+#nav2 h1 {
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#nav3 button {
+  padding: 7px 12px;
+  border: 1.5px solid #000;
+  border-radius: 50px;
+  font-size: 17px;
+  font-weight: 600;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#nav3 button:hover {
+  background-color: #dbcfcf;
+}
+
+#nav3 #red-btn {
+  border: none;
+  color: #fff;
+  background-color: orangered;
+}
+
+#nav3 #red-btn:hover {
+  background-color: #ff4400af;
+}
+
+#main > h1 {
+  font-size: 120px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+}
+
+#main > img {
+  height: 300px;
+  width: 250px;
+  object-position: top;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 20px;
+}
+
+#img1 {
+  z-index: 4;
+  transform: translate(-50%, -50%);
+}
+#img2 {
+  z-index: 3;
+  transform: translate(-50%, -50%) rotate(-10deg);
+}
+#img3 {
+  z-index: 2;
+  transform: translate(-50%, -50%) rotate(-20deg);
+}
+#img4 {
+  z-index: 1;
+  transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+#btm-left {
+  position: absolute;
+  left: 32px;
+  bottom: 30px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#socials {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 7px;
+}
+
+#btm-right {
+  position: absolute;
+  right: 32px;
+  bottom: 30px;
+  font-size: 15px;
+  font-weight: 500;
+}
